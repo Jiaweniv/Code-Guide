@@ -1,12 +1,14 @@
-# Code-Guide
-标准开发灵活的、持久的和可持续的HTML和CSS,和可维护的JavaScript
- 
+Code-Guide
+
+标准开发灵活的、持久的和可持续的HTML和CSS,和可维护的JavaScript  
+
+
 <html>
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=gb2312">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
-<title>ÍøÕ¾Éè¼ÆÖÆ×÷¹æ·¶ÊÖ²á</title>
+<title>网站设计制作规范手册</title>
 <style>
 <!--
  /* Font Definitions */
@@ -38,7 +40,7 @@
 	{font-family:Batang;
 	panose-1:2 3 6 0 0 1 1 1 1 1;}
 @font-face
-	{font-family:ËÎÌå;
+	{font-family:宋体;
 	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
 	{font-family:PMingLiU;
@@ -50,7 +52,7 @@
 	{font-family:Dotum;
 	panose-1:2 11 6 0 0 1 1 1 1 1;}
 @font-face
-	{font-family:ºÚÌå;
+	{font-family:黑体;
 	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
 	{font-family:MingLiU;
@@ -107,7 +109,7 @@
 	{font-family:"Yu Gothic";
 	panose-1:2 11 4 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:µÈÏß;
+	{font-family:等线;
 	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
 	{font-family:Calibri;
@@ -125,22 +127,22 @@
 	{font-family:"Arial Unicode MS";
 	panose-1:2 11 6 4 2 2 2 2 2 4;}
 @font-face
-	{font-family:"µÈÏß Light";
+	{font-family:"等线 Light";
 	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
 	{font-family:"Segoe UI Emoji";
 	panose-1:0 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:Î¢ÈíÑÅºÚ;
+	{font-family:微软雅黑;
 	panose-1:2 11 5 3 2 2 4 2 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"\@ËÎÌå";
+	{font-family:"\@宋体";
 	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
-	{font-family:"\@Î¢ÈíÑÅºÚ";}
+	{font-family:"\@微软雅黑";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -150,7 +152,7 @@
 	font-size:10.5pt;
 	font-family:"Times New Roman",serif;}
 h1
-	{mso-style-link:"±êÌâ 1 Char";
+	{mso-style-link:"标题 1 Char";
 	margin-top:17.0pt;
 	margin-right:0cm;
 	margin-bottom:16.5pt;
@@ -163,7 +165,7 @@ h1
 	font-family:"Times New Roman",serif;
 	font-weight:bold;}
 h2
-	{mso-style-link:"±êÌâ 2 Char";
+	{mso-style-link:"标题 2 Char";
 	margin-top:13.0pt;
 	margin-right:0cm;
 	margin-bottom:13.0pt;
@@ -176,7 +178,7 @@ h2
 	font-family:"Cambria",serif;
 	font-weight:bold;}
 h3
-	{mso-style-link:"±êÌâ 3 Char";
+	{mso-style-link:"标题 3 Char";
 	margin-top:13.0pt;
 	margin-right:0cm;
 	margin-bottom:13.0pt;
@@ -189,7 +191,7 @@ h3
 	font-family:"Times New Roman",serif;
 	font-weight:bold;}
 h4
-	{mso-style-link:"±êÌâ 4 Char";
+	{mso-style-link:"标题 4 Char";
 	margin-top:14.0pt;
 	margin-right:0cm;
 	margin-bottom:14.5pt;
@@ -217,7 +219,7 @@ p.MsoFooter, li.MsoFooter, div.MsoFooter
 	font-size:9.0pt;
 	font-family:"Times New Roman",serif;}
 p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-link:"±êÌâ Char";
+	{mso-style-link:"标题 Char";
 	margin-top:12.0pt;
 	margin-right:0cm;
 	margin-bottom:3.0pt;
@@ -236,22 +238,22 @@ p
 	{margin-right:0cm;
 	margin-left:0cm;
 	font-size:12.0pt;
-	font-family:ËÎÌå;}
+	font-family:宋体;}
 code
-	{font-family:ËÎÌå;}
+	{font-family:宋体;}
 pre
-	{mso-style-link:"HTML Ô¤Éè¸ñÊ½ Char";
+	{mso-style-link:"HTML 预设格式 Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
-	font-family:ËÎÌå;}
+	font-family:宋体;}
 span.1Char
-	{mso-style-name:"±êÌâ 1 Char";
-	mso-style-link:"±êÌâ 1";
+	{mso-style-name:"标题 1 Char";
+	mso-style-link:"标题 1";
 	font-weight:bold;}
 span.Char
-	{mso-style-name:"±êÌâ Char";
-	mso-style-link:±êÌâ;
+	{mso-style-name:"标题 Char";
+	mso-style-link:标题;
 	font-family:"Cambria",serif;
 	font-weight:bold;}
 p.lead, li.lead, div.lead
@@ -259,23 +261,23 @@ p.lead, li.lead, div.lead
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:12.0pt;
-	font-family:ËÎÌå;}
+	font-family:宋体;}
 span.2Char
-	{mso-style-name:"±êÌâ 2 Char";
-	mso-style-link:"±êÌâ 2";
+	{mso-style-name:"标题 2 Char";
+	mso-style-link:"标题 2";
 	font-family:"Cambria",serif;
 	font-weight:bold;}
 span.4Char
-	{mso-style-name:"±êÌâ 4 Char";
-	mso-style-link:"±êÌâ 4";
+	{mso-style-name:"标题 4 Char";
+	mso-style-link:"标题 4";
 	font-family:"Cambria",serif;
 	font-weight:bold;}
 span.apple-converted-space
 	{mso-style-name:apple-converted-space;}
 span.HTMLChar
-	{mso-style-name:"HTML Ô¤Éè¸ñÊ½ Char";
-	mso-style-link:"HTML Ô¤Éè¸ñÊ½";
-	font-family:ËÎÌå;}
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-link:"HTML 预设格式";
+	font-family:宋体;}
 span.cp
 	{mso-style-name:cp;}
 span.nt
@@ -333,8 +335,8 @@ span.hljs-doctag
 span.hljs-meta
 	{mso-style-name:hljs-meta;}
 span.3Char
-	{mso-style-name:"±êÌâ 3 Char";
-	mso-style-link:"±êÌâ 3";
+	{mso-style-name:"标题 3 Char";
+	mso-style-link:"标题 3";
 	font-weight:bold;}
 span.icon
 	{mso-style-name:icon;}
@@ -343,7 +345,7 @@ p.masthead-links, li.masthead-links, div.masthead-links
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:12.0pt;
-	font-family:ËÎÌå;}
+	font-family:宋体;}
 span.nd
 	{mso-style-name:nd;}
 span.kd
@@ -391,343 +393,343 @@ punctuation'>
 <div class=WordSection1 style='layout-grid:15.6pt'>
 
 <h1 align=center style='text-align:center;background:#2A3440'><span
-style='font-family:ËÎÌå;color:white;letter-spacing:-.6pt;font-weight:normal'>±àÂë¹æ·¶</span><span
+style='font-family:宋体;color:white;letter-spacing:-.6pt;font-weight:normal'>编码规范</span><span
 lang=EN-US style='font-family:"Helvetica",sans-serif;color:white;letter-spacing:
 -.6pt;font-weight:normal'> </span></h1>
 
-<p class=lead align=center style='text-align:center;background:#2A3440'>±ê×¼¿ª·¢Áé»îµÄ¡¢³Ö¾ÃµÄºÍ¿É³ÖÐøµÄ<span
-lang=EN-US style='font-family:"Helvetica",sans-serif'>HTML</span>ºÍ<span
-lang=EN-US style='font-family:"Helvetica",sans-serif'>CSS,</span>ºÍ¿ÉÎ¬»¤µÄ<span
+<p class=lead align=center style='text-align:center;background:#2A3440'>标准开发灵活的、持久的和可持续的<span
+lang=EN-US style='font-family:"Helvetica",sans-serif'>HTML</span>和<span
+lang=EN-US style='font-family:"Helvetica",sans-serif'>CSS,</span>和可维护的<span
 lang=EN-US style='font-family:"Helvetica",sans-serif'>JavaScript</span></p>
 
-<h2 style='background:#DFE1E8'><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ä¿Â¼</span></h2>
+<h2 style='background:#DFE1E8'><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>目录</span></h2>
 
-<h4 style='vertical-align:top'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'><a href="#_ÃüÃû¹æÔò"><span
-lang=EN-US><span lang=EN-US>ÃüÃû¹æÔò</span></span></a></span></h4>
-
-<p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
-text-indent:-17.85pt;line-height:25%;vertical-align:top'><span lang=EN-US
-style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>¡¤<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:11.0pt;line-height:25%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'><a href="#_ÏîÄ¿ÃüÃû"><span lang=EN-US><span
-lang=EN-US>ÏîÄ¿ÃüÃû</span></span></a></span></p>
+<h4 style='vertical-align:top'><span lang=EN-US style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'><a href="#_命名规则"><span
+lang=EN-US><span lang=EN-US>命名规则</span></span></a></span></h4>
 
 <p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
 text-indent:-17.85pt;line-height:25%;vertical-align:top'><span lang=EN-US
-style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>¡¤<span
+style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-US style='font-size:11.0pt;line-height:25%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'><a href="#_Ä¿Â¼ÃüÃû"><span lang=EN-US><span
-lang=EN-US>Ä¿Â¼ÃüÃû</span></span></a></span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'><a href="#_项目命名"><span lang=EN-US><span
+lang=EN-US>项目命名</span></span></a></span></p>
 
 <p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
 text-indent:-17.85pt;line-height:25%;vertical-align:top'><span lang=EN-US
-style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>¡¤<span
+style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-US style='font-size:11.0pt;line-height:25%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'><a href="#_JSÎÄ¼þÃüÃû">JS<span
-lang=EN-US><span lang=EN-US>ÎÄ¼þÃüÃû</span></span></a></span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'><a href="#_目录命名"><span lang=EN-US><span
+lang=EN-US>目录命名</span></span></a></span></p>
+
+<p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
+text-indent:-17.85pt;line-height:25%;vertical-align:top'><span lang=EN-US
+style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;line-height:25%;
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'><a href="#_JS文件命名">JS<span
+lang=EN-US><span lang=EN-US>文件命名</span></span></a></span></p>
 
 <p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
 text-indent:-17.85pt;vertical-align:top'><span lang=EN-US style='font-size:
-10.0pt;font-family:Symbol;color:#5A5A5A'>¡¤<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'><a href="#_CSSÎÄ¼þÃüÃû">CSS<span lang=EN-US><span lang=EN-US>ÎÄ<span
-lang=EN-US>¼þ<span lang=EN-US>ÃüÃû</span></span></span></span></a></span></p>
+10.0pt;font-family:Symbol;color:#5A5A5A'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'><a href="#_CSS文件命名">CSS<span lang=EN-US><span lang=EN-US>文<span
+lang=EN-US>件<span lang=EN-US>命名</span></span></span></span></a></span></p>
 
 <p class=MsoNormal align=left style='margin-left:35.7pt;text-align:left;
 text-indent:-17.85pt;line-height:25%;vertical-align:top'><span lang=EN-US
-style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>¡¤<span
+style='font-size:10.0pt;line-height:25%;font-family:Symbol;color:#5A5A5A'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span lang=EN-US style='font-size:11.0pt;line-height:25%;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'><a href="#_HTMLÎÄ¼þÃüÃû">HTML<span
-lang=EN-US><span lang=EN-US>ÎÄ¼þ<span lang=EN-US>ÃüÃû</span></span></span></a></span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'><a href="#_HTML文件命名">HTML<span
+lang=EN-US><span lang=EN-US>文件<span lang=EN-US>命名</span></span></span></a></span></p>
 
 <h4 style='margin-top:0cm;background:white;vertical-align:top'><span
-lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:
+lang=EN-US style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:
 -.6pt;font-weight:normal'><a href="#_HTML">HTML</a></span></h4>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_Óï·¨"><span lang=EN-US><span lang=EN-US>Óï·¨</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_语法"><span lang=EN-US><span lang=EN-US>语法</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_HTML5_doctype">HTML5 doctype</a></span></li>
+     "微软雅黑",sans-serif'><a href="#_HTML5_doctype">HTML5 doctype</a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_langÊôÐÔ">lang<span lang=EN-US><span
-     lang=EN-US>ÊôÐÔ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_lang属性">lang<span lang=EN-US><span
+     lang=EN-US>属性</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_×Ö·û±àÂë"><span lang=EN-US><span lang=EN-US>×Ö·û±àÂë</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_字符编码"><span lang=EN-US><span lang=EN-US>字符编码</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_IE¼æÈÝÄ£Ê½">IE<span lang=EN-US><span lang=EN-US>¼æÈÝÄ£Ê½</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_IE兼容模式">IE<span lang=EN-US><span lang=EN-US>兼容模式</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÒýÈëCSS,_JS"><span lang=EN-US><span
-     lang=EN-US>Òý<span lang=EN-US>ÈëCSS, JS</span></span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_引入CSS,_JS"><span lang=EN-US><span
+     lang=EN-US>引<span lang=EN-US>入CSS, JS</span></span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÊôÐÔË³Ðò"><span lang=EN-US><span lang=EN-US>ÊôÐÔË³Ðò</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_属性顺序"><span lang=EN-US><span lang=EN-US>属性顺序</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_booleanÊôÐÔ">boolean<span lang=EN-US><span
-     lang=EN-US>ÊôÐÔ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_boolean属性">boolean<span lang=EN-US><span
+     lang=EN-US>属性</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_JSÉú³É±êÇ©">JS<span lang=EN-US><span lang=EN-US>Éú³É±ê<span
-     lang=EN-US>Ç©</span></span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_JS生成标签">JS<span lang=EN-US><span lang=EN-US>生成标<span
+     lang=EN-US>签</span></span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¼õÉÙ±êÇ©ÊýÁ¿"><span lang=EN-US><span lang=EN-US>¼õÉÙ±êÇ©ÊýÁ¿</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_减少标签数量"><span lang=EN-US><span lang=EN-US>减少标签数量</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÊµÓÃ¸ßÓÚÍêÃÀ"><span lang=EN-US><span lang=EN-US>ÊµÓÃ¸ßÓÚÍêÃÀ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_实用高于完美"><span lang=EN-US><span lang=EN-US>实用高于完美</span></span></a></span></li>
 </ul>
 
 <h4 style='background:white;vertical-align:top'><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'><a href="#_CSS">CSS</a></span></h4>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_Ëõ½ø"><span lang=EN-US><span lang=EN-US>Ëõ<span
-     lang=EN-US>½ø</span></span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_缩进"><span lang=EN-US><span lang=EN-US>缩<span
+     lang=EN-US>进</span></span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_·ÖºÅ"><span lang=EN-US><span lang=EN-US>·ÖºÅ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_分号"><span lang=EN-US><span lang=EN-US>分号</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¿Õ¸ñ"><span lang=EN-US><span lang=EN-US>¿Õ¸ñ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_空格"><span lang=EN-US><span lang=EN-US>空格</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¿ÕÐÐ"><span lang=EN-US><span lang=EN-US>¿ÕÐÐ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_空行"><span lang=EN-US><span lang=EN-US>空行</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_»»ÐÐ"><span lang=EN-US><span lang=EN-US>»»ÐÐ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_换行"><span lang=EN-US><span lang=EN-US>换行</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_!important">!important</a></span></li>
+     "微软雅黑",sans-serif'><a href="#_!important">!important</a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_×¢ÊÍ"><span lang=EN-US><span lang=EN-US>×¢ÊÍ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_注释"><span lang=EN-US><span lang=EN-US>注释</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÒýºÅ"><span lang=EN-US><span lang=EN-US>ÒýºÅ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_引号"><span lang=EN-US><span lang=EN-US>引号</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÃüÃû"><span lang=EN-US><span lang=EN-US>ÃüÃû</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_命名"><span lang=EN-US><span lang=EN-US>命名</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÊôÐÔÉùÃ÷Ë³Ðò"><span lang=EN-US><span lang=EN-US>ÊôÐÔÉùÃ÷Ë³Ðò</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_属性声明顺序"><span lang=EN-US><span lang=EN-US>属性声明顺序</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÑÕÉ«"><span lang=EN-US><span lang=EN-US>ÑÕ<span
-     lang=EN-US>É«</span></span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_颜色"><span lang=EN-US><span lang=EN-US>颜<span
+     lang=EN-US>色</span></span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_Ã½Ìå²éÑ¯"><span lang=EN-US><span lang=EN-US>Ã½Ìå²éÑ¯</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_媒体查询"><span lang=EN-US><span lang=EN-US>媒体查询</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_SCSSÏà¹Ø">SCSS<span lang=EN-US><span
-     lang=EN-US>Ïà¹Ø</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_SCSS相关">SCSS<span lang=EN-US><span
+     lang=EN-US>相关</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÔÓÏî"><span lang=EN-US><span lang=EN-US>ÔÓÏî</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_杂项"><span lang=EN-US><span lang=EN-US>杂项</span></span></a></span></li>
 </ul>
 
 <h4 style='background:white;vertical-align:top'><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'><a href="#_JavaScript">JavaScript</a></span></h4>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_Ëõ½ø_1"><span lang=EN-US><span lang=EN-US>Ëõ½ø</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_缩进_1"><span lang=EN-US><span lang=EN-US>缩进</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_µ¥ÐÐ³¤¶È"><span lang=EN-US><span lang=EN-US>µ¥ÐÐ³¤¶È</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_单行长度"><span lang=EN-US><span lang=EN-US>单行长度</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_·ÖºÅ_1"><span lang=EN-US><span lang=EN-US>·ÖºÅ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_分号_1"><span lang=EN-US><span lang=EN-US>分号</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¿Õ¸ñ_1"><span lang=EN-US><span lang=EN-US>¿Õ¸ñ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_空格_1"><span lang=EN-US><span lang=EN-US>空格</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¿ÕÐÐ_1"><span lang=EN-US><span lang=EN-US>¿ÕÐÐ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_空行_1"><span lang=EN-US><span lang=EN-US>空行</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_»»ÐÐ_1"><span lang=EN-US><span lang=EN-US>»»ÐÐ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_换行_1"><span lang=EN-US><span lang=EN-US>换行</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_µ¥ÐÐ×¢ÊÍ"><span lang=EN-US><span lang=EN-US>µ¥ÐÐ×¢ÊÍ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_单行注释"><span lang=EN-US><span lang=EN-US>单行注释</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_¶àÐÐ×¢ÊÍ"><span lang=EN-US><span lang=EN-US>¶àÐÐ×¢ÊÍ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_多行注释"><span lang=EN-US><span lang=EN-US>多行注释</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÎÄµµ×¢ÊÍ"><span lang=EN-US><span lang=EN-US>ÎÄµµ×¢ÊÍ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_文档注释"><span lang=EN-US><span lang=EN-US>文档注释</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÒýºÅ_1"><span lang=EN-US><span lang=EN-US>ÒýºÅ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_引号_1"><span lang=EN-US><span lang=EN-US>引号</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_±äÁ¿ÃüÃû"><span lang=EN-US><span lang=EN-US>±äÁ¿<span
-     lang=EN-US>ÃüÃû</span></span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_变量命名"><span lang=EN-US><span lang=EN-US>变量<span
+     lang=EN-US>命名</span></span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_±äÁ¿ÉùÃ÷"><span lang=EN-US><span lang=EN-US>±äÁ¿ÉùÃ÷</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_变量声明"><span lang=EN-US><span lang=EN-US>变量声明</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_º¯Êý"><span lang=EN-US><span lang=EN-US>º¯Êý</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_函数"><span lang=EN-US><span lang=EN-US>函数</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_Êý×é¡¢¶ÔÏó"><span lang=EN-US><span lang=EN-US>Êý×é¡¢¶ÔÏó</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_数组、对象"><span lang=EN-US><span lang=EN-US>数组、对象</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_À¨ºÅ"><span lang=EN-US><span lang=EN-US>À¨ºÅ</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_括号"><span lang=EN-US><span lang=EN-US>括号</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_null">null</a></span></li>
+     "微软雅黑",sans-serif'><a href="#_null">null</a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_undefined">undefined</a></span></li>
+     "微软雅黑",sans-serif'><a href="#_undefined">undefined</a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_jshint">jshint</a></span></li>
+     "微软雅黑",sans-serif'><a href="#_jshint">jshint</a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;background:white;
      vertical-align:top'><span lang=EN-US style='font-size:11.0pt;font-family:
-     "Î¢ÈíÑÅºÚ",sans-serif'><a href="#_ÔÓÏî_1"><span lang=EN-US><span lang=EN-US>ÔÓÏî</span></span></a></span></li>
+     "微软雅黑",sans-serif'><a href="#_杂项_1"><span lang=EN-US><span lang=EN-US>杂项</span></span></a></span></li>
 </ul>
 
 <p class=MsoNormal align=left style='margin-left:36.0pt;text-align:left;
 background:white;vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
 
 <p class=MsoNormal align=left style='margin-left:36.0pt;text-align:left;
 background:white;vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
 
 <p class=MsoNormal align=left style='margin-left:36.0pt;text-align:left;
 background:white;vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></p>
 
-<h2 style='vertical-align:top'><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>×î¼ÑÔ­Ôò</span></h2>
+<h2 style='vertical-align:top'><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>最佳原则</span></h2>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¼á³ÖÖÆ¶¨ºÃµÄ´úÂë¹æ·¶¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>坚持制定好的代码规范。</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÎÞÂÛÍÅ¶ÓÈËÊý¶àÉÙ£¬´úÂëÓ¦¸ÃÍ¬³öÒ»ÃÅ¡£</span></p>
-
-<p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Èç¹ûÄãÏëÒªÎªÕâ¸ö¹æ·¶×ö¹±Ï×»ò¾õµÃÓÐ²»ºÏÀíµÄµØ·½£¬Çë¼°Ê±Ìá³ö¸ü¸Ä½¨Òé¡£</span></p>
-
-<h2 style='background:#DFE1E8'><a name="_ÃüÃû¹æÔò"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÃüÃû¹æÔò</span></h2>
-
-<h3 style='vertical-align:top'><a name="_ÏîÄ¿ÃüÃû"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÏîÄ¿ÃüÃû</span></h3>
-
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>È«²¿²ÉÓÃÐ¡Ð´·½Ê½£¬ ÒÔÏÂ»®Ïß·Ö¸ô¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>无论团队人数多少，代码应该同出一门。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Àý£º<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>如果你想要为这个规范做贡献或觉得有不合理的地方，请及时提出更改建议。</span></p>
+
+<h2 style='background:#DFE1E8'><a name="_命名规则"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>命名规则</span></h2>
+
+<h3 style='vertical-align:top'><a name="_项目命名"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>项目命名</span></h3>
+
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>全部采用小写方式， 以下划线分隔。</span></p>
+
+<p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>例：<span
 lang=EN-US>my_project_name</span></span></p>
 
-<h3 style='vertical-align:top'><a name="_Ä¿Â¼ÃüÃû"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ä¿Â¼ÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_目录命名"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>目录命名</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²ÎÕÕÏîÄ¿ÃüÃû¹æÔò£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>参照项目命名规则；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÍêÕûÓ¢ÎÄÃüÃûµÄÓÃ¸´ÊýÐÎÊ½£¬ËõÐ´ÓÃµ¥ÊýÐÎÊ½</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>完整英文命名的用复数形式，缩写用单数形式</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Àý£º<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>例：<span
 lang=EN-US>scripts, js, styles, css, images, img, data_models, modules,
 lego_modules, pages</span></span></p>
 
-<h3 style='vertical-align:top'><a name="_JSÎÄ¼þÃüÃû"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>JS</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÎÄ¼þÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_JS文件命名"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>JS</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>文件命名</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²ÎÕÕÏîÄ¿ÃüÃû¹æÔò¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>参照项目命名规则。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Àý£º<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>例：<span
 lang=EN-US>account_model.js</span></span></p>
 
-<h3 style='vertical-align:top'><a name="_CSSÎÄ¼þÃüÃû"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>CSS</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÎÄ¼þÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_CSS文件命名"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>CSS</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>文件命名</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²ÎÕÕÏîÄ¿ÃüÃû¹æÔò¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>参照项目命名规则。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Àý£º<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>例：<span
 lang=EN-US>retina_sprites.scss</span></span></p>
 
-<h3 style='vertical-align:top'><a name="_HTMLÎÄ¼þÃüÃû"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>HTML</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÎÄ¼þÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_HTML文件命名"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>HTML</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>文件命名</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²ÎÕÕÏîÄ¿ÃüÃû¹æÔò¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>参照项目命名规则。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Àý£º<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>例：<span
 lang=EN-US>error_report.html</span></span></p>
 
 <h2 style='background:#DFE1E8'><a name="_HTML"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>HTML</span></h2>
 
-<h3 style='vertical-align:top'><a name="_Óï·¨"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Óï·¨</span></h3>
+<h3 style='vertical-align:top'><a name="_语法"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>语法</span></h3>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ëõ½øÊ¹ÓÃ<span
-     lang=EN-US>soft tab</span>£¨<span lang=EN-US>4</span>¸ö¿Õ¸ñ£©£»</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>缩进使用<span
+     lang=EN-US>soft tab</span>（<span lang=EN-US>4</span>个空格）；</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç¶Ì×µÄ½ÚµãÓ¦¸ÃËõ½ø£»</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>嵌套的节点应该缩进；</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔÚÊôÐÔÉÏ£¬Ê¹ÓÃË«ÒýºÅ£¬²»ÒªÊ¹ÓÃµ¥ÒýºÅ£»</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>在属性上，使用双引号，不要使用单引号；</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÃûÈ«Ð¡Ð´£¬ÓÃÖÐ»®Ïß×ö·Ö¸ô·û£»</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性名全小写，用中划线做分隔符；</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»ÒªÔÚ×Ô¶¯±ÕºÏ±êÇ©½áÎ²´¦Ê¹ÓÃÐ±Ïß£¨<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>不要在自动闭合标签结尾处使用斜线（<span
      lang=EN-US><a
      href="http://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag"><span
      style='color:#0088CC'>HTML5 </span><span lang=EN-US style='color:#0088CC'><span
-     lang=EN-US>¹æ·¶</span></span></a><span class=apple-converted-space>&nbsp;</span></span>Ö¸³öËûÃÇÊÇ¿ÉÑ¡µÄ£©£»</span></li>
+     lang=EN-US>规范</span></span></a><span class=apple-converted-space>&nbsp;</span></span>指出他们是可选的）；</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»ÒªºöÂÔ¿ÉÑ¡µÄ¹Ø±Õ±êÇ©£¬Àý£º</span><code><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>不要忽略可选的关闭标签，例：</span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>&lt;/li&gt;</span></code><span
      class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºÍ<span class=apple-converted-space><span
+     font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span style='font-size:
+     11.0pt;font-family:"微软雅黑",sans-serif'>和<span class=apple-converted-space><span
      lang=EN-US>&nbsp;</span></span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>&lt;/body&gt;</span></code><span style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¡£</span></li>
+     font-family:"微软雅黑",sans-serif'>。</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cp><span
@@ -787,19 +789,19 @@ style='background:#F7F7F9;vertical-align:top'><span class=nt><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;/html&gt;</span></span></pre>
 
 <h3 style='vertical-align:top'><a name="_HTML5_doctype"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>HTML5 doctype</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÔÚÒ³Ãæ¿ªÍ·Ê¹ÓÃÕâ¸ö¼òµ¥µØ<span lang=EN-US>doctype</span>À´ÆôÓÃ±ê×¼Ä£Ê½£¬Ê¹ÆäÔÚÃ¿¸öä¯ÀÀÆ÷ÖÐ¾¡¿ÉÄÜÒ»ÖÂµÄÕ¹ÏÖ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>在页面开头使用这个简单地<span lang=EN-US>doctype</span>来启用标准模式，使其在每个浏览器中尽可能一致的展现；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ËäÈ»<span
-lang=EN-US>doctype</span>²»Çø·Ö´óÐ¡Ð´£¬µ«ÊÇ°´ÕÕ¹ßÀý£¬<span lang=EN-US>doctype</span>´óÐ´ £¨<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>虽然<span
+lang=EN-US>doctype</span>不区分大小写，但是按照惯例，<span lang=EN-US>doctype</span>大写 （<span
 lang=EN-US><a
 href="http://stackoverflow.com/questions/15594877/is-there-any-benefits-to-use-uppercase-or-lowercase-letters-with-html5-tagname"
-target="_blank"><span lang=EN-US style='color:#0088CC'><span lang=EN-US>¹ØÓÚhtml</span></span><span
-lang=EN-US style='color:#0088CC'><span lang=EN-US>ÊôÐÔ£¬´óÐ´»¹ÊÇÐ¡Ð´</span></span></a></span>£©¡£</span></p>
+target="_blank"><span lang=EN-US style='color:#0088CC'><span lang=EN-US>关于html</span></span><span
+lang=EN-US style='color:#0088CC'><span lang=EN-US>属性，大写还是小写</span></span></a></span>）。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cp><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#009999'>&lt;!DOCTYPE html&gt;</span></span></pre><pre
@@ -810,40 +812,40 @@ style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>&nbsp;&nbsp;&nbs
 style='background:#F7F7F9;vertical-align:top'><span class=nt><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;/html&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_langÊôÐÔ"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>lang</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÊôÐÔ</span></h3>
+<h3 style='vertical-align:top'><a name="_lang属性"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>lang</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>属性</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¸ù¾Ý<span lang=EN-US>HTML5</span>¹æ·¶£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>根据<span lang=EN-US>HTML5</span>规范：</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><i><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#7A7A7A'>Ó¦ÔÚ<span
-lang=EN-US>html</span>±êÇ©ÉÏ¼ÓÉÏ<span lang=EN-US>lang</span>ÊôÐÔ¡£Õâ»á¸øÓïÒô¹¤¾ßºÍ·­Òë¹¤¾ß°ïÖú£¬¸æËßËüÃÇÓ¦µ±ÔõÃ´È¥·¢ÒôºÍ·­Òë¡£</span></i></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#7A7A7A'>应在<span
+lang=EN-US>html</span>标签上加上<span lang=EN-US>lang</span>属性。这会给语音工具和翻译工具帮助，告诉它们应当怎么去发音和翻译。</span></i></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¸ü¶à¹ØÓÚ<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>更多关于<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>lang</span></code><span class=apple-converted-space><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÊôÐÔµÄËµÃ÷<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>属性的说明<span
 lang=EN-US><a
 href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element"><span
-lang=EN-US style='color:#0088CC'><span lang=EN-US>ÔÚÕâÀï</span></span></a></span>£»</span></p>
+lang=EN-US style='color:#0088CC'><span lang=EN-US>在这里</span></span></a></span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÔÚ<span lang=EN-US>sitepoint</span>ÉÏ¿ÉÒÔ²éµ½<span lang=EN-US><a
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>在<span lang=EN-US>sitepoint</span>上可以查到<span lang=EN-US><a
 href="http://reference.sitepoint.com/html/lang-codes"><span lang=EN-US
-style='color:#0088CC'><span lang=EN-US>ÓïÑÔÁÐ±í</span></span></a></span>£»</span></p>
+style='color:#0088CC'><span lang=EN-US>语言列表</span></span></a></span>；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>µ«<span
-lang=EN-US>sitepoint</span>Ö»ÊÇ¸ø³öÁËÓïÑÔµÄ´óÀà£¬ÀýÈçÖÐÎÄÖ»¸ø³öÁË<span lang=EN-US>zh</span>£¬µ«ÊÇÃ»ÓÐÇø·ÖÏã¸Û£¬Ì¨Íå£¬´óÂ½¡£¶øÎ¢Èí¸ø³öÁËÒ»·Ý¸ü¼Ó<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>但<span
+lang=EN-US>sitepoint</span>只是给出了语言的大类，例如中文只给出了<span lang=EN-US>zh</span>，但是没有区分香港，台湾，大陆。而微软给出了一份更加<span
 lang=EN-US><a
 href="http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx"><span
-lang=EN-US style='color:#0088CC'><span lang=EN-US>ÏêÏ¸µÄÓïÑÔÁÐ±í</span></span></a></span>£¬ÆäÖÐÏ¸·ÖÁË<span
-lang=EN-US>zh-cn, zh-hk, zh-tw</span>¡£</span></p>
+lang=EN-US style='color:#0088CC'><span lang=EN-US>详细的语言列表</span></span></a></span>，其中细分了<span
+lang=EN-US>zh-cn, zh-hk, zh-tw</span>。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cp><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#009999'>&lt;!DOCTYPE html&gt;</span></span></pre><pre
@@ -860,12 +862,12 @@ vertical-align:top'><code><span lang=EN-US style='font-size:8.5pt;font-family:
 style='background:#F7F7F9;vertical-align:top'><span class=nt><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;/html&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_×Ö·û±àÂë"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>×Ö·û±àÂë</span></h3>
+<h3 style='vertical-align:top'><a name="_字符编码"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>字符编码</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Í¨¹ýÉùÃ÷Ò»¸öÃ÷È·µÄ×Ö·û±àÂë£¬ÈÃä¯ÀÀÆ÷ÇáËÉ¡¢¿ìËÙµÄÈ·¶¨ÊÊºÏÍøÒ³ÄÚÈÝµÄäÖÈ¾·½Ê½£¬Í¨³£Ö¸¶¨Îª<span
-lang=EN-US>'UTF-8'</span>¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>通过声明一个明确的字符编码，让浏览器轻松、快速的确定适合网页内容的渲染方式，通常指定为<span
+lang=EN-US>'UTF-8'</span>。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cp><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#009999'>&lt;!DOCTYPE html&gt;</span></span></pre><pre
@@ -893,30 +895,30 @@ vertical-align:top'><code><span lang=EN-US style='font-size:8.5pt;font-family:
 style='background:#F7F7F9;vertical-align:top'><span class=nt><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;/html&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_IE¼æÈÝÄ£Ê½"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>IE</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¼æÈÝÄ£Ê½</span></h3>
+<h3 style='vertical-align:top'><a name="_IE兼容模式"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>IE</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>兼容模式</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÓÃ<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>用<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>&lt;meta&gt;</span></code><span
 class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>±êÇ©¿ÉÒÔÖ¸¶¨Ò³ÃæÓ¦¸ÃÓÃÊ²Ã´°æ±¾µÄ<span
-lang=EN-US>IE</span>À´äÖÈ¾£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>标签可以指定页面应该用什么版本的<span
+lang=EN-US>IE</span>来渲染；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Èç¹ûÄãÏëÒªÁË½â¸ü¶à£¬Çëµã»÷<span lang=EN-US><a
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>如果你想要了解更多，请点击<span lang=EN-US><a
 href="http://stackoverflow.com/questions/6771258/whats-the-difference-if-meta-http-equiv-x-ua-compatible-content-ie-edge-e"><span
-lang=EN-US style='color:#0088CC'><span lang=EN-US>ÕâÀï</span></span></a></span>£»</span></p>
+lang=EN-US style='color:#0088CC'><span lang=EN-US>这里</span></span></a></span>；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²»Í¬<span
-lang=EN-US>doctype</span>ÔÚ²»Í¬ä¯ÀÀÆ÷ÏÂ»á´¥·¢²»Í¬µÄäÖÈ¾Ä£Ê½£¨<span lang=EN-US><a
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>不同<span
+lang=EN-US>doctype</span>在不同浏览器下会触发不同的渲染模式（<span lang=EN-US><a
 href="https://hsivonen.fi/doctype/"><span lang=EN-US style='color:#0088CC'><span
-lang=EN-US>ÕâÆªÎÄÕÂ</span></span></a></span>×Ü½áµÄºÜµ½Î»£©¡£</span></p>
+lang=EN-US>这篇文章</span></span></a></span>总结的很到位）。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cp><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#009999'>&lt;!DOCTYPE html&gt;</span></span></pre><pre
@@ -948,45 +950,45 @@ style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>&nbsp;&nbsp;&nbs
 style='background:#F7F7F9;vertical-align:top'><span class=nt><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;/html&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÒýÈëCSS,_JS"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÒýÈë<span
+<h3 style='vertical-align:top'><a name="_引入CSS,_JS"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>引入<span
 lang=EN-US>CSS, JS</span></span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¸ù¾Ý<span lang=EN-US>HTML5</span>¹æ·¶<span lang=EN-US>, </span>Í¨³£ÔÚÒýÈë<span
-lang=EN-US>CSS</span>ºÍ<span lang=EN-US>JS</span>Ê±²»ÐèÒªÖ¸Ã÷<span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>根据<span lang=EN-US>HTML5</span>规范<span lang=EN-US>, </span>通常在引入<span
+lang=EN-US>CSS</span>和<span lang=EN-US>JS</span>时不需要指明<span
 class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>type</span></code><span style='font-size:11.0pt;font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>£¬ÒòÎª<span class=apple-converted-space><span
+"微软雅黑",sans-serif;color:#5A5A5A'>，因为<span class=apple-converted-space><span
 lang=EN-US>&nbsp;</span></span></span><code><span lang=EN-US style='font-size:
 9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>text/css</span></code><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ºÍ<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>和<span
 class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>text/javascript</span></code><span
 class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>·Ö±ðÊÇËûÃÇµÄÄ¬ÈÏÖµ¡£</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>分别是他们的默认值。</span></p>
 
-<h4 style='vertical-align:top'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+<h4 style='vertical-align:top'><span lang=EN-US style='font-family:"微软雅黑",sans-serif;
 color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>HTML5 </span><span
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>¹æ·¶Á´½Ó</span></h4>
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>规范链接</span></h4>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><a
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'><a
      href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-link-element"><span
-     lang=EN-US style='color:#0088CC'><span lang=EN-US>Ê¹ÓÃlink</span></span></a></span></li>
+     lang=EN-US style='color:#0088CC'><span lang=EN-US>使用link</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><a
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'><a
      href="http://www.w3.org/TR/2011/WD-html5-20110525/semantics.html#the-style-element"><span
-     lang=EN-US style='color:#0088CC'><span lang=EN-US>Ê¹ÓÃstyle</span></span></a></span></li>
+     lang=EN-US style='color:#0088CC'><span lang=EN-US>使用style</span></span></a></span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'><a
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'><a
      href="http://www.w3.org/TR/2011/WD-html5-20110525/scripting-1.html#the-script-element"><span
-     lang=EN-US style='color:#0088CC'><span lang=EN-US>Ê¹ÓÃscript</span></span></a></span></li>
+     lang=EN-US style='color:#0088CC'><span lang=EN-US>使用script</span></span></a></span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
@@ -1039,11 +1041,11 @@ color:#5A5A5A'>...</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=nt><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#2F6F9F'>&lt;/script&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÊôÐÔË³Ðò"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÊôÐÔË³Ðò</span></h3>
+<h3 style='vertical-align:top'><a name="_属性顺序"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>属性顺序</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÊôÐÔÓ¦¸Ã°´ÕÕÌØ¶¨µÄË³Ðò³öÏÖÒÔ±£Ö¤Ò×¶ÁÐÔ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>属性应该按照特定的顺序出现以保证易读性；</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
@@ -1061,56 +1063,56 @@ color:#5A5A5A'>ÊôÐÔÓ¦¸Ã°´ÕÕÌØ¶¨µÄË³Ðò³öÏÖÒÔ±£Ö¤�
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>src</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>for</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>type</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>href</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>value</span></code><span class=apple-converted-space><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>,<span
      class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>max-length</span></code><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>max</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>min</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>pattern</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>placeholder</span></code><span lang=EN-US
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>,<span
      class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>title</span></code><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>alt</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>aria-*</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>role</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>required</span></code><span lang=EN-US
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>,<span
      class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>readonly</span></code><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>disabled</span></code></li>
 </ul>
@@ -1167,26 +1169,26 @@ style='font-size:8.5pt;font-family:"Courier New";color:#D44950'>&quot;...&quot;<
 class=nt><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#2F6F9F'>&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_booleanÊôÐÔ"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>boolean</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÊôÐÔ</span></h3>
+<h3 style='vertical-align:top'><a name="_boolean属性"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>boolean</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>属性</span></h3>
 
 <p style='vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>boolean</span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÊôÐÔÖ¸²»ÐèÒªÉùÃ÷È¡ÖµµÄÊôÐÔ£¬<span
-lang=EN-US>XHTML</span>ÐèÒªÃ¿¸öÊôÐÔÉùÃ÷È¡Öµ£¬µ«ÊÇ<span lang=EN-US>HTML5</span>²¢²»ÐèÒª£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>boolean</span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>属性指不需要声明取值的属性，<span
+lang=EN-US>XHTML</span>需要每个属性声明取值，但是<span lang=EN-US>HTML5</span>并不需要；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¸ü¶àÄÚÈÝ¿ÉÒÔ²Î¿¼<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>更多内容可以参考<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span><span
 lang=EN-US><a
 href="http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#boolean-attributes"><span
-style='color:#0088CC'>WhatWG section on boolean attributes</span></a></span>£º</span></p>
+style='color:#0088CC'>WhatWG section on boolean attributes</span></a></span>：</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><i><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#7A7A7A'>boolean</span></i><i><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#7A7A7A'>ÊôÐÔµÄ´æÔÚ±íÊ¾È¡ÖµÎª<span
-lang=EN-US>true</span>£¬²»´æÔÚÔò±íÊ¾È¡ÖµÎª<span lang=EN-US>false</span>¡£</span></i></p>
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#7A7A7A'>boolean</span></i><i><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#7A7A7A'>属性的存在表示取值为<span
+lang=EN-US>true</span>，不存在则表示取值为<span lang=EN-US>false</span>。</span></i></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nt><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#2F6F9F'>&lt;input</span></span><code><span
@@ -1236,24 +1238,24 @@ color:#2F6F9F'>&lt;/option&gt;</span></span></pre><pre style='background:#F7F7F9
 vertical-align:top'><span class=nt><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#2F6F9F'>&lt;/select&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_JSÉú³É±êÇ©"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>JS</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Éú³É±êÇ©</span></h3>
+<h3 style='vertical-align:top'><a name="_JS生成标签"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>JS</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>生成标签</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÔÚ<span
-lang=EN-US>JS</span>ÎÄ¼þÖÐÉú³É±êÇ©ÈÃÄÚÈÝ±äµÃ¸üÄÑ²éÕÒ£¬¸üÄÑ±à¼­£¬ÐÔÄÜ¸ü²î¡£Ó¦¸Ã¾¡Á¿±ÜÃâÕâÖÖÇé¿öµÄ³öÏÖ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>在<span
+lang=EN-US>JS</span>文件中生成标签让内容变得更难查找，更难编辑，性能更差。应该尽量避免这种情况的出现。</span></p>
 
-<h3 style='vertical-align:top'><a name="_¼õÉÙ±êÇ©ÊýÁ¿"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¼õÉÙ±êÇ©ÊýÁ¿</span></h3>
+<h3 style='vertical-align:top'><a name="_减少标签数量"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>减少标签数量</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÔÚ±àÐ´<span lang=EN-US>HTML</span>´úÂëÊ±£¬ÐèÒª¾¡Á¿±ÜÃâ¶àÓàµÄ¸¸½Úµã£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>在编写<span lang=EN-US>HTML</span>代码时，需要尽量避免多余的父节点；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ºÜ¶àÊ±ºò£¬ÐèÒªÍ¨¹ýµü´úºÍÖØ¹¹À´Ê¹<span
-lang=EN-US>HTML</span>±äµÃ¸üÉÙ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>很多时候，需要通过迭代和重构来使<span
+lang=EN-US>HTML</span>变得更少。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>&lt;!-- Not well --&gt;</span></span></pre><pre
@@ -1293,25 +1295,25 @@ style='font-size:8.5pt;font-family:"Courier New";color:#D44950'>&quot;...&quot;<
 class=nt><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#2F6F9F'>&gt;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÊµÓÃ¸ßÓÚÍêÃÀ"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÊµÓÃ¸ßÓÚÍêÃÀ</span></h3>
+<h3 style='vertical-align:top'><a name="_实用高于完美"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>实用高于完美</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¾¡Á¿×ñÑ­<span lang=EN-US>HTML</span>±ê×¼ºÍÓïÒå£¬µ«ÊÇ²»Ó¦¸ÃÒÔÀË·ÑÊµÓÃÐÔ×÷Îª´ú¼Û£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>尽量遵循<span lang=EN-US>HTML</span>标准和语义，但是不应该以浪费实用性作为代价；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÈÎºÎÊ±ºò¶¼ÒªÓÃ¾¡Á¿Ð¡µÄ¸´ÔÓ¶ÈºÍ¾¡Á¿ÉÙµÄ±êÇ©À´½â¾öÎÊÌâ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>任何时候都要用尽量小的复杂度和尽量少的标签来解决问题。</span></p>
 
 <h2 style='background:#DFE1E8'><a name="_CSS"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>CSS</span></h2>
 
-<h3 style='vertical-align:top'><a name="_Ëõ½ø"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ëõ½ø</span></h3>
+<h3 style='vertical-align:top'><a name="_缩进"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>缩进</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Ê¹ÓÃ<span
-lang=EN-US>soft tab</span>£¨<span lang=EN-US>4</span>¸ö¿Õ¸ñ£©¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>使用<span
+lang=EN-US>soft tab</span>（<span lang=EN-US>4</span>个空格）。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nc><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#00AA88'>.element</span></span><code><span
@@ -1380,11 +1382,11 @@ color:#5A5A5A'>;</span></span></pre><pre style='background:#F7F7F9;vertical-alig
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_·ÖºÅ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>·ÖºÅ</span></h3>
+<h3 style='vertical-align:top'><a name="_分号"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>分号</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Ã¿¸öÊôÐÔÉùÃ÷Ä©Î²¶¼Òª¼Ó·ÖºÅ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>每个属性声明末尾都要加分号。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nc><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#00AA88'>.element</span></span><code><span
@@ -1423,62 +1425,62 @@ color:#5A5A5A'>;</span></span></pre><pre style='background:#F7F7F9;vertical-alig
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_¿Õ¸ñ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¿Õ¸ñ</span></h3>
+<h3 style='vertical-align:top'><a name="_空格"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>空格</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿ö²»ÐèÒª¿Õ¸ñ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况不需要空格：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÃûºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性名后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶à¸ö¹æÔòµÄ·Ö¸ô·û<span
-     lang=EN-US>','</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>多个规则的分隔符<span
+     lang=EN-US>','</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>!important</span></code><span
      class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span lang=EN-US
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'!'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºó</span></li>
+     font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span lang=EN-US
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'!'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÖµÖÐ<span
-     lang=EN-US>'('</span>ºóºÍ<span lang=EN-US>')'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性值中<span
+     lang=EN-US>'('</span>后和<span lang=EN-US>')'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÐÐÄ©²»ÒªÓÐ¶àÓàµÄ¿Õ¸ñ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>行末不要有多余的空格</span></li>
 </ul>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª¿Õ¸ñ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要空格：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÖµÇ°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性值前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ñ¡ÔñÆ÷<span
-     lang=EN-US>'&gt;', '+', '~'</span>Ç°ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>选择器<span
+     lang=EN-US>'&gt;', '+', '~'</span>前后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'{'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç°</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'{'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>!important</span></code><span
      class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span lang=EN-US
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'!'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç°</span></li>
+     font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span lang=EN-US
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'!'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>@else</span></code><span class=apple-converted-space><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç°ºó</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>前后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÖµÖÐµÄ<span
-     lang=EN-US>','</span>ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性值中的<span
+     lang=EN-US>','</span>后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>×¢ÊÍ<span lang=EN-US>'/*'</span>ºóºÍ<span
-     lang=EN-US>'*/'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>注释<span lang=EN-US>'/*'</span>后和<span
+     lang=EN-US>'*/'</span>前</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
@@ -1712,24 +1714,24 @@ color:#555555'>...</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_¿ÕÐÐ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¿ÕÐÐ</span></h3>
+<h3 style='vertical-align:top'><a name="_空行"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>空行</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª¿ÕÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要空行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÎÄ¼þ×îºó±£ÁôÒ»¸ö¿ÕÐÐ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>文件最后保留一个空行</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'}'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºó×îºÃ¸úÒ»¸ö¿ÕÐÐ£¬°üÀ¨<span
-     lang=EN-US>scss</span>ÖÐÇ¶Ì×µÄ¹æÔò</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'}'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>后最好跟一个空行，包括<span
+     lang=EN-US>scss</span>中嵌套的规则</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÊôÐÔÖ®¼äÐèÒªÊÊµ±µÄ¿ÕÐÐ£¬¾ßÌå¼û<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>属性之间需要适当的空行，具体见<span
      lang=EN-US><a
      href="http://imweb.github.io/CodeGuide/#css-declaration-order"><span
-     lang=EN-US style='color:#0088CC'><span lang=EN-US>ÊôÐÔÉùÃ÷Ë³Ðò</span></span></a></span></span></li>
+     lang=EN-US style='color:#0088CC'><span lang=EN-US>属性声明顺序</span></span></a></span></span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
@@ -1825,30 +1827,30 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</sp
 style='background:#F7F7F9;vertical-align:top'><span class=err><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#AA0000;background:#FFAAAA'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_»»ÐÐ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>»»ÐÐ</span></h3>
+<h3 style='vertical-align:top'><a name="_换行"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>换行</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿ö²»ÐèÒª»»ÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况不需要换行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'{'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç°</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'{'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>前</span></li>
 </ul>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª»»ÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要换行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'{'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºóºÍ<span lang=EN-US>'}'</span>Ç°</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'{'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>后和<span lang=EN-US>'}'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ã¿¸öÊôÐÔ¶ÀÕ¼Ò»ÐÐ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>每个属性独占一行</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶à¸ö¹æÔòµÄ·Ö¸ô·û<span
-     lang=EN-US>','</span>ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>多个规则的分隔符<span
+     lang=EN-US>','</span>后</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
@@ -1939,25 +1941,25 @@ vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
 <h3 style='vertical-align:top'><a name="_!important"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>!important</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²»ÔÊÐíÊ¹ÓÃ<span
-lang=EN-US>!important</span>¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>不允许使用<span
+lang=EN-US>!important</span>。</span></p>
 
-<h3 style='vertical-align:top'><a name="_×¢ÊÍ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>×¢ÊÍ</span></h3>
+<h3 style='vertical-align:top'><a name="_注释"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>注释</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>×¢ÊÍÍ³Ò»ÓÃ<span lang=EN-US>'/* */'</span>£¨<span lang=EN-US>scss</span>ÖÐÒ²²»ÒªÓÃ<span
-lang=EN-US>'//'</span>£©£¬¾ßÌå²ÎÕÕÓÒ±ßµÄÐ´·¨£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>注释统一用<span lang=EN-US>'/* */'</span>（<span lang=EN-US>scss</span>中也不要用<span
+lang=EN-US>'//'</span>），具体参照右边的写法；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ëõ½øÓëÏÂÒ»ÐÐ´úÂë±£³ÖÒ»ÖÂ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>缩进与下一行代码保持一致；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>¿ÉÎ»ÓÚÒ»¸ö´úÂëÐÐµÄÄ©Î²£¬Óë´úÂë¼ä¸ôÒ»¸ö¿Õ¸ñ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>可位于一个代码行的末尾，与代码间隔一个空格。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* Modal header */</span></span></pre><pre
@@ -2025,18 +2027,18 @@ color:#999999'>/* color red */</span></span></pre><pre style='background:#F7F7F9
 vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÒýºÅ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÒýºÅ</span></h3>
+<h3 style='vertical-align:top'><a name="_引号"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>引号</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>×îÍâ²ãÍ³Ò»Ê¹ÓÃË«ÒýºÅ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>最外层统一使用双引号；</span></p>
 
 <p style='vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>url</span><span style='font-size:
-11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>µÄÄÚÈÝÒªÓÃÒýºÅ£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>url</span><span style='font-size:
+11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>的内容要用引号；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÊôÐÔÑ¡ÔñÆ÷ÖÐµÄÊôÐÔÖµÐèÒªÒýºÅ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>属性选择器中的属性值需要引号。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nc><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#00AA88'>.element</span></span><span
@@ -2085,16 +2087,16 @@ color:#555555'>...</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÃüÃû"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_命名"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>命名</span></h3>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ê¹ÓÃÐ¡Ð´×ÖÄ¸£¬ÒÔÖÐ»®Ïß·Ö¸ô</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>使用小写字母，以中划线分隔</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>scss</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÖÐµÄ±äÁ¿¡¢º¯Êý¡¢»ìºÏ¡¢<span
-     lang=EN-US>placeholder</span>²ÉÓÃÍÕ·åÊ½ÃüÃû</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>scss</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>中的变量、函数、混合、<span
+     lang=EN-US>placeholder</span>采用驼峰式命名</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
@@ -2127,7 +2129,7 @@ style='background:#F7F7F9;vertical-align:top'><code><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>&nbsp;</span></code></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=c><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* </span></span><span
-class=c><span style='font-size:8.5pt;color:#999999'>±äÁ¿</span></span><span
+class=c><span style='font-size:8.5pt;color:#999999'>变量</span></span><span
 class=c><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'> */</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=o><span lang=EN-US style='font-size:8.5pt;
@@ -2143,7 +2145,7 @@ top'><code><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>&nbsp;</span></code></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=c><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#999999'>/* </span></span><span class=c><span
-style='font-size:8.5pt;color:#999999'>º¯Êý</span></span><span class=c><span
+style='font-size:8.5pt;color:#999999'>函数</span></span><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'> */</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=k><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#006699'>@function</span></span><code><span
@@ -2166,7 +2168,7 @@ style='background:#F7F7F9;vertical-align:top'><code><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>&nbsp;</span></code></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=c><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* </span></span><span
-class=c><span style='font-size:8.5pt;color:#999999'>»ìºÏ</span></span><span
+class=c><span style='font-size:8.5pt;color:#999999'>混合</span></span><span
 class=c><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'> */</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=k><span lang=EN-US style='font-size:8.5pt;
@@ -2199,11 +2201,11 @@ color:#555555'>...</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÊôÐÔÉùÃ÷Ë³Ðò"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÊôÐÔÉùÃ÷Ë³Ðò</span></h3>
+<h3 style='vertical-align:top'><a name="_属性声明顺序"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>属性声明顺序</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Ïà¹ØµÄÊôÐÔÉùÃ÷°´ÓÒ±ßµÄË³Ðò×ö·Ö×é´¦Àí£¬×éÖ®¼äÐèÒªÓÐÒ»¸ö¿ÕÐÐ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>相关的属性声明按右边的顺序做分组处理，组之间需要有一个空行。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nc><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#00AA88'>.declaration-order</span></span><code><span
@@ -2405,7 +2407,7 @@ style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=c1><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// </span></span><span
-class=c1><span style='font-size:8.5pt;color:#999999'>ÏÂÃæÊÇÍÆ¼öµÄÊôÐÔµÄË³Ðò</span></span></pre><pre
+class=c1><span style='font-size:8.5pt;color:#999999'>下面是推荐的属性的顺序</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>[</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><code><span lang=EN-US
@@ -3931,15 +3933,15 @@ color:#5A5A5A'>]</span></span></pre><pre style='background:#F7F7F9;vertical-alig
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>]</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÑÕÉ«"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÑÕÉ«</span></h3>
+<h3 style='vertical-align:top'><a name="_颜色"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>颜色</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÑÕÉ«<span lang=EN-US>16</span>½øÖÆÓÃÐ¡Ð´×ÖÄ¸£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>颜色<span lang=EN-US>16</span>进制用小写字母；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÑÕÉ«<span
-lang=EN-US>16</span>½øÖÆ¾¡Á¿ÓÃ¼òÐ´¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>颜色<span
+lang=EN-US>16</span>进制尽量用简写。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* not good */</span></span></pre><pre
@@ -3998,11 +4000,11 @@ color:#5A5A5A'>;</span></span></pre><pre style='background:#F7F7F9;vertical-alig
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_Ã½Ìå²éÑ¯"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ã½Ìå²éÑ¯</span></h3>
+<h3 style='vertical-align:top'><a name="_媒体查询"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>媒体查询</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>¾¡Á¿½«Ã½Ìå²éÑ¯µÄ¹æÔò¿¿½üÓëËûÃÇÏà¹ØµÄ¹æÔò£¬²»Òª½«ËûÃÇÒ»Æð·Åµ½Ò»¸ö¶ÀÁ¢µÄÑùÊ½ÎÄ¼þÖÐ£¬»òÕß¶ªÔÚÎÄµµµÄ×îµ×²¿£¬ÕâÑù×öÖ»»áÈÃ´ó¼ÒÒÔºó¸üÈÝÒ×Íü¼ÇËûÃÇ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>尽量将媒体查询的规则靠近与他们相关的规则，不要将他们一起放到一个独立的样式文件中，或者丢在文档的最底部，这样做只会让大家以后更容易忘记他们。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=nc><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#00AA88'>.element</span></span><code><span
@@ -4073,72 +4075,72 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</sp
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_SCSSÏà¹Ø"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
-font-weight:normal'>SCSS</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ïà¹Ø</span></h3>
+<h3 style='vertical-align:top'><a name="_SCSS相关"></a><span lang=EN-US
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+font-weight:normal'>SCSS</span><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>相关</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ìá½»µÄ´úÂëÖÐ²»ÒªÓÐ<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>提交的代码中不要有<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>@debug</span></code><span style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÉùÃ÷Ë³Ðò£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>声明顺序：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>@extend</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»°üº¬<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>不包含<span
      class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>@content</span></code><span
      class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>µÄ<span class=apple-converted-space><span
+     font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span style='font-size:
+     11.0pt;font-family:"微软雅黑",sans-serif'>的<span class=apple-converted-space><span
      lang=EN-US>&nbsp;</span></span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>@include</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>°üº¬<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>包含<span
      class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>@content</span></code><span
      class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;</span></span><span style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>µÄ<span class=apple-converted-space><span
+     font-family:"微软雅黑",sans-serif'>&nbsp;</span></span><span style='font-size:
+     11.0pt;font-family:"微软雅黑",sans-serif'>的<span class=apple-converted-space><span
      lang=EN-US>&nbsp;</span></span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>@include</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>×ÔÉíÊôÐÔ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>自身属性</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç¶Ì×¹æÔò</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>嵌套规则</span></li>
 </ul>
 
 <p style='vertical-align:top'><code><span lang=EN-US style='font-size:9.0pt;
 font-family:"Courier New";color:#D44950;background:#F7F7F9'>@import</span></code><span
 class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÒýÈëµÄÎÄ¼þ²»ÐèÒª¿ªÍ·µÄ<span
-lang=EN-US>'_'</span>ºÍ½áÎ²µÄ<span lang=EN-US>'.scss'</span>£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>引入的文件不需要开头的<span
+lang=EN-US>'_'</span>和结尾的<span lang=EN-US>'.scss'</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ç¶Ì××î¶à²»ÄÜ³¬¹ý<span lang=EN-US>4</span>²ã£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>嵌套最多不能超过<span lang=EN-US>4</span>层；</span></p>
 
 <p style='vertical-align:top'><code><span lang=EN-US style='font-size:9.0pt;
 font-family:"Courier New";color:#D44950;background:#F7F7F9'>@extend</span></code><span
 class=apple-converted-space><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÖÐÊ¹ÓÃ<span
-lang=EN-US>placeholder</span>Ñ¡ÔñÆ÷£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>中使用<span
+lang=EN-US>placeholder</span>选择器；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>È¥µô²»±ØÒªµÄ¸¸¼¶ÒýÓÃ·ûºÅ<span
-lang=EN-US>'&amp;'</span>¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>去掉不必要的父级引用符号<span
+lang=EN-US>'&amp;'</span>。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* not good */</span></span></pre><pre
@@ -4260,60 +4262,60 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</sp
 style='background:#F7F7F9;vertical-align:top'><span class=err><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#AA0000;background:#FFAAAA'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÔÓÏî"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÔÓÏî</span></h3>
+<h3 style='vertical-align:top'><a name="_杂项"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>杂项</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÔÊÐíÓÐ¿ÕµÄ¹æÔò£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不允许有空的规则；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÔªËØÑ¡ÔñÆ÷ÓÃÐ¡Ð´×ÖÄ¸£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>元素选择器用小写字母；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>È¥µôÐ¡ÊýµãÇ°ÃæµÄ<span lang=EN-US>0</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>去掉小数点前面的<span lang=EN-US>0</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>È¥µôÊý×ÖÖÐ²»±ØÒªµÄÐ¡ÊýµãºÍÄ©Î²µÄ<span lang=EN-US>0</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>去掉数字中不必要的小数点和末尾的<span lang=EN-US>0</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÊôÐÔÖµ<span lang=EN-US>'0'</span>ºóÃæ²»Òª¼Óµ¥Î»£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>属性值<span lang=EN-US>'0'</span>后面不要加单位；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Í¬¸öÊôÐÔ²»Í¬Ç°×ºµÄÐ´·¨ÐèÒªÔÚ´¹Ö±·½Ïò±£³Ö¶ÔÆë£¬¾ßÌå²ÎÕÕÓÒ±ßµÄÐ´·¨£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>同个属性不同前缀的写法需要在垂直方向保持对齐，具体参照右边的写法；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÎÞÇ°×ºµÄ±ê×¼ÊôÐÔÓ¦¸ÃÐ´ÔÚÓÐÇ°×ºµÄÊôÐÔºóÃæ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>无前缀的标准属性应该写在有前缀的属性后面；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÍ¬¸ö¹æÔòÀï³öÏÖÖØ¸´µÄÊôÐÔ£¬Èç¹ûÖØ¸´µÄÊôÐÔÊÇÁ¬ÐøµÄÔòÃ»¹ØÏµ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在同个规则里出现重复的属性，如果重复的属性是连续的则没关系；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÒ»¸öÎÄ¼þÀï³öÏÖÁ½¸öÏàÍ¬µÄ¹æÔò£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在一个文件里出现两个相同的规则；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÓÃ<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>用<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>border: 0;</span></code><span class=apple-converted-space><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>´úÌæ<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>&nbsp;</span></span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>代替<span
 class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>border: none;</span></code><span style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ñ¡ÔñÆ÷²»Òª³¬¹ý<span lang=EN-US>4</span>²ã£¨ÔÚ<span lang=EN-US>scss</span>ÖÐÈç¹û³¬¹ý<span
-lang=EN-US>4</span>²ãÓ¦¸Ã¿¼ÂÇÓÃÇ¶Ì×µÄ·½Ê½À´Ð´£©£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>选择器不要超过<span lang=EN-US>4</span>层（在<span lang=EN-US>scss</span>中如果超过<span
+lang=EN-US>4</span>层应该考虑用嵌套的方式来写）；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>·¢²¼µÄ´úÂëÖÐ²»ÒªÓÐ<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>发布的代码中不要有<span class=apple-converted-space><span lang=EN-US>&nbsp;</span></span></span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>@import</span></code><span style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>¾¡Á¿ÉÙÓÃ<span
-lang=EN-US>'*'</span>Ñ¡ÔñÆ÷¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>尽量少用<span
+lang=EN-US>'*'</span>选择器。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>/* not good */</span></span></pre><pre
@@ -4929,15 +4931,15 @@ style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
 <h2 style='background:#DFE1E8'><a name="_JavaScript"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>JavaScript</span></h2>
 
-<h3 style='vertical-align:top'><a name="_Ëõ½ø_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Ëõ½ø</span></h3>
+<h3 style='vertical-align:top'><a name="_缩进_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>缩进</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Ê¹ÓÃ<span
-lang=EN-US>soft tab</span>£¨<span lang=EN-US>4</span>¸ö¿Õ¸ñ£©¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>使用<span
+lang=EN-US>soft tab</span>（<span lang=EN-US>4</span>个空格）。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=kd><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#006699'>var</span></span><code><span
@@ -5007,15 +5009,15 @@ color:#FF6600'>1</span></span><span class=p><span lang=EN-US style='font-size:
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_µ¥ÐÐ³¤¶È"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>µ¥ÐÐ³¤¶È</span></h3>
+<h3 style='vertical-align:top'><a name="_单行长度"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>单行长度</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»Òª³¬¹ý<span lang=EN-US>120</span>£¬µ«Èç¹û±à¼­Æ÷¿ªÆô<span lang=EN-US>word
-wrap</span>¿ÉÒÔ²»¿¼ÂÇµ¥ÐÐ³¤¶È¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要超过<span lang=EN-US>120</span>，但如果编辑器开启<span lang=EN-US>word
+wrap</span>可以不考虑单行长度。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>³¤×Ö·û´®Æ´½ÓÓÃ¼ÓºÅ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>长字符串拼接用加号。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -5086,27 +5088,27 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#CC3300'>'&lt;
 class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_·ÖºÅ_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>·ÖºÅ</span></h3>
+<h3 style='vertical-align:top'><a name="_分号_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>分号</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öºóÐè¼Ó·ÖºÅ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况后需加分号：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>±äÁ¿ÉùÃ÷</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>变量声明</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>±í´ïÊ½</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>表达式</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>return</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>return</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>throw</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>throw</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>break</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>break</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>continue</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>continue</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>do-while</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>do-while</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cm><span
@@ -5162,115 +5164,115 @@ class=mi><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#FF6600'>10</span></span><span class=p><span lang=EN-US style='font-size:
 8.5pt;font-family:"Courier New";color:#5A5A5A'>);</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_¿Õ¸ñ_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¿Õ¸ñ</span></h3>
+<h3 style='vertical-align:top'><a name="_空格_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>空格</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿ö²»ÐèÒª¿Õ¸ñ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况不需要空格：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶ÔÏóµÄÊôÐÔÃûºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>对象的属性名后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ç°×ºÒ»ÔªÔËËã·ûºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>前缀一元运算符后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ºó×ºÒ»ÔªÔËËã·ûÇ°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>后缀一元运算符前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>º¯Êýµ÷ÓÃÀ¨ºÅÇ°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>函数调用括号前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÎÞÂÛÊÇº¯ÊýÉùÃ÷»¹ÊÇº¯Êý±í´ïÊ½£¬<span
-     lang=EN-US>'('</span>Ç°²»Òª¿Õ¸ñ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>无论是函数声明还是函数表达式，<span
+     lang=EN-US>'('</span>前不要空格</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Êý×éµÄ<span
-     lang=EN-US>'['</span>ºóºÍ<span lang=EN-US>']'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>数组的<span
+     lang=EN-US>'['</span>后和<span lang=EN-US>']'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶ÔÏóµÄ<span
-     lang=EN-US>'{'</span>ºóºÍ<span lang=EN-US>'}'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>对象的<span
+     lang=EN-US>'{'</span>后和<span lang=EN-US>'}'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔËËã·û<span
-     lang=EN-US>'('</span>ºóºÍ<span lang=EN-US>')'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>运算符<span
+     lang=EN-US>'('</span>后和<span lang=EN-US>')'</span>前</span></li>
 </ul>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª¿Õ¸ñ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要空格：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶þÔªÔËËã·ûÇ°ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>二元运算符前后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÈýÔªÔËËã·û<span
-     lang=EN-US>'?:'</span>Ç°ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>三元运算符<span
+     lang=EN-US>'?:'</span>前后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>´úÂë¿é<span
-     lang=EN-US>'{'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>代码块<span
+     lang=EN-US>'{'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÏÂÁÐ¹Ø¼ü×ÖÇ°£º</span><code><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>下列关键字前：</span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>else</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>while</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>catch</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>finally</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÏÂÁÐ¹Ø¼ü×Öºó£º</span><code><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>下列关键字后：</span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>if</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>else</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>for</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>while</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>do</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>switch</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>case</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>try</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,</span><code><span lang=EN-US
+     11.0pt;font-family:"微软雅黑",sans-serif'>,</span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>catch</span></code><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>finally</span></code><span lang=EN-US
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>,<span
      class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
      style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:
      #F7F7F9'>with</span></code><span lang=EN-US style='font-size:11.0pt;
-     font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>return</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>typeof</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>µ¥ÐÐ×¢ÊÍ<span
-     lang=EN-US>'//'</span>ºó£¨Èôµ¥ÐÐ×¢ÊÍºÍ´úÂëÍ¬ÐÐ£¬Ôò<span lang=EN-US>'//'</span>Ç°Ò²ÐèÒª£©£¬¶àÐÐ×¢ÊÍ<span
-     lang=EN-US>'*'</span>ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>单行注释<span
+     lang=EN-US>'//'</span>后（若单行注释和代码同行，则<span lang=EN-US>'//'</span>前也需要），多行注释<span
+     lang=EN-US>'*'</span>后</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶ÔÏóµÄÊôÐÔÖµÇ°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>对象的属性值前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>for</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>Ñ­»·£¬·ÖºÅºóÁôÓÐÒ»¸ö¿Õ¸ñ£¬Ç°ÖÃÌõ¼þÈç¹ûÓÐ¶à¸ö£¬¶ººÅºóÁôÒ»¸ö¿Õ¸ñ</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>for</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>循环，分号后留有一个空格，前置条件如果有多个，逗号后留一个空格</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÎÞÂÛÊÇº¯ÊýÉùÃ÷»¹ÊÇº¯Êý±í´ïÊ½£¬<span
-     lang=EN-US>'{'</span>Ç°Ò»¶¨ÒªÓÐ¿Õ¸ñ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>无论是函数声明还是函数表达式，<span
+     lang=EN-US>'{'</span>前一定要有空格</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>º¯ÊýµÄ²ÎÊýÖ®¼ä</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>函数的参数之间</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
@@ -5595,21 +5597,21 @@ color:#555555'>++</span></span><span class=p><span lang=EN-US style='font-size:
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_¿ÕÐÐ_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¿ÕÐÐ</span></h3>
+<h3 style='vertical-align:top'><a name="_空行_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>空行</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª¿ÕÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要空行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>±äÁ¿ÉùÃ÷ºó£¨µ±±äÁ¿ÉùÃ÷ÔÚ´úÂë¿éµÄ×îºóÒ»ÐÐÊ±£¬ÔòÎÞÐè¿ÕÐÐ£©</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>变量声明后（当变量声明在代码块的最后一行时，则无需空行）</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>×¢ÊÍÇ°£¨µ±×¢ÊÍÔÚ´úÂë¿éµÄµÚÒ»ÐÐÊ±£¬ÔòÎÞÐè¿ÕÐÐ£©</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>注释前（当注释在代码块的第一行时，则无需空行）</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>´úÂë¿éºó£¨ÔÚº¯Êýµ÷ÓÃ¡¢Êý×é¡¢¶ÔÏóÖÐÔòÎÞÐè¿ÕÐÐ£©</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>代码块后（在函数调用、数组、对象中则无需空行）</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÎÄ¼þ×îºó±£ÁôÒ»¸ö¿ÕÐÐ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>文件最后保留一个空行</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
@@ -5966,40 +5968,40 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#FF6600'>3</sp
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>};</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_»»ÐÐ_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>»»ÐÐ</span></h3>
+<h3 style='vertical-align:top'><a name="_换行_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>换行</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>»»ÐÐµÄµØ·½£¬ÐÐÄ©±ØÐëÓÐ<span lang=EN-US>','</span>»òÕßÔËËã·û£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>换行的地方，行末必须有<span lang=EN-US>','</span>或者运算符；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿ö²»ÐèÒª»»ÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况不需要换行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÏÂÁÐ¹Ø¼ü×Öºó£º</span><code><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>下列关键字后：</span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>else</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>catch</span></code><span lang=EN-US style='font-size:
-     11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
+     11.0pt;font-family:"微软雅黑",sans-serif'>,<span class=apple-converted-space>&nbsp;</span></span><code><span
      lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
      background:#F7F7F9'>finally</span></code></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>´úÂë¿é<span
-     lang=EN-US>'{'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>代码块<span
+     lang=EN-US>'{'</span>前</span></li>
 </ul>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÒÔÏÂ¼¸ÖÖÇé¿öÐèÒª»»ÐÐ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>以下几种情况需要换行：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>´úÂë¿é<span
-     lang=EN-US>'{'</span>ºóºÍ<span lang=EN-US>'}'</span>Ç°</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>代码块<span
+     lang=EN-US>'{'</span>后和<span lang=EN-US>'}'</span>前</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶¨Òå±äÁ¿ºó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>定义变量后</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
@@ -6311,17 +6313,17 @@ class=mi><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#FF6600'>8</span></span><span class=p><span lang=EN-US style='font-size:
 8.5pt;font-family:"Courier New";color:#5A5A5A'>;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_µ¥ÐÐ×¢ÊÍ"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>µ¥ÐÐ×¢ÊÍ</span></h3>
+<h3 style='vertical-align:top'><a name="_单行注释"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>单行注释</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ë«Ð±Ïßºó£¬±ØÐë¸úÒ»¸ö¿Õ¸ñ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>双斜线后，必须跟一个空格；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ëõ½øÓëÏÂÒ»ÐÐ´úÂë±£³ÖÒ»ÖÂ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>缩进与下一行代码保持一致；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>¿ÉÎ»ÓÚÒ»¸ö´úÂëÐÐµÄÄ©Î²£¬Óë´úÂë¼ä¸ôÒ»¸ö¿Õ¸ñ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>可位于一个代码行的末尾，与代码间隔一个空格。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=k><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#006699'>if</span></span><code><span
@@ -6361,25 +6363,25 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'> </sp
 class=c1><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>// one space after code</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_¶àÐÐ×¢ÊÍ"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>¶àÐÐ×¢ÊÍ</span></h3>
+<h3 style='vertical-align:top'><a name="_多行注释"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>多行注释</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>×îÉÙÈýÐÐ<span lang=EN-US>, '*'</span>ºó¸úÒ»¸ö¿Õ¸ñ£¬¾ßÌå²ÎÕÕÓÒ±ßµÄÐ´·¨£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>最少三行<span lang=EN-US>, '*'</span>后跟一个空格，具体参照右边的写法；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>½¨ÒéÔÚÒÔÏÂÇé¿öÏÂÊ¹ÓÃ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>建议在以下情况下使用：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÄÑÓÚÀí½âµÄ´úÂë¶Î</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>难于理解的代码段</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¿ÉÄÜ´æÔÚ´íÎóµÄ´úÂë¶Î</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>可能存在错误的代码段</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ä¯ÀÀÆ÷ÌØÊâµÄ<span
-     lang=EN-US>HACK</span>´úÂë</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>浏览器特殊的<span
+     lang=EN-US>HACK</span>代码</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÒµÎñÂß¼­Ç¿Ïà¹ØµÄ´úÂë</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>业务逻辑强相关的代码</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cm><span
@@ -6400,25 +6402,25 @@ class=mi><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#FF6600'>1</span></span><span class=p><span lang=EN-US style='font-size:
 8.5pt;font-family:"Courier New";color:#5A5A5A'>;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÎÄµµ×¢ÊÍ"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÎÄµµ×¢ÊÍ</span></h3>
+<h3 style='vertical-align:top'><a name="_文档注释"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>文档注释</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¸÷Àà±êÇ©<span lang=EN-US>@param, @method</span>µÈÇë²Î¿¼<span lang=EN-US><a
-href="http://usejsdoc.org/" target="_blank"><span style='color:#0088CC'>usejsdoc</span></a></span>ºÍ<span
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>各类标签<span lang=EN-US>@param, @method</span>等请参考<span lang=EN-US><a
+href="http://usejsdoc.org/" target="_blank"><span style='color:#0088CC'>usejsdoc</span></a></span>和<span
 lang=EN-US><a href="http://yuri4ever.github.io/jsdoc/" target="_blank"><span
-style='color:#0088CC'>JSDoc Guide</span></a></span>£»</span></p>
+style='color:#0088CC'>JSDoc Guide</span></a></span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>½¨ÒéÔÚÒÔÏÂÇé¿öÏÂÊ¹ÓÃ£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>建议在以下情况下使用：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÓÐ³£Á¿</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>所有常量</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÓÐº¯Êý</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>所有函数</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ËùÓÐÀà</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>所有类</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=cm><span
@@ -6427,80 +6429,80 @@ style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @func</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @desc </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>Ò»¸ö´ø²ÎÊýµÄº¯Êý</span></span></pre><pre
+class=cm><span style='font-size:8.5pt;color:#999999'>一个带参数的函数</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {string} a - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>a</span></span></pre><pre style='background:#F7F7F9;vertical-align:
 top'><span class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'> * @param {number} b=1 - </span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span class=cm><span
+style='font-size:8.5pt;color:#999999'>参数</span></span><span class=cm><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>b</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>Ä¬ÈÏÖµÎª</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>默认值为</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>1</span></span></pre><pre style='background:#F7F7F9;vertical-align:
 top'><span class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'> * @param {string} c=1 - </span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span class=cm><span
+style='font-size:8.5pt;color:#999999'>参数</span></span><span class=cm><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>c</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>ÓÐÁ½ÖÖÖ§³ÖµÄÈ¡Öµ</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>有两种支持的取值</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
-color:#999999'>&lt;/br&gt;1¡ª</span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>±íÊ¾</span></span><span class=cm><span
-lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>x&lt;/br&gt;2¡ª</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>±íÊ¾</span></span><span
+color:#999999'>&lt;/br&gt;1—</span></span><span class=cm><span
+style='font-size:8.5pt;color:#999999'>表示</span></span><span class=cm><span
+lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>x&lt;/br&gt;2—</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>表示</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>xx</span></span></pre><pre style='background:#F7F7F9;vertical-align:
 top'><span class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'> * @param {object} d - </span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span class=cm><span
+style='font-size:8.5pt;color:#999999'>参数</span></span><span class=cm><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>d</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>ÎªÒ»¸ö¶ÔÏó</span></span></pre><pre
+class=cm><span style='font-size:8.5pt;color:#999999'>为一个对象</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {string} d.e - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>d</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>µÄ</span></span><span class=cm><span lang=EN-US style='font-size:
+color:#999999'>的</span></span><span class=cm><span lang=EN-US style='font-size:
 8.5pt;font-family:"Courier New";color:#999999'>e</span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>ÊôÐÔ</span></span></pre><pre
+style='font-size:8.5pt;color:#999999'>属性</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {string} d.f - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>d</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>µÄ</span></span><span class=cm><span lang=EN-US style='font-size:
+color:#999999'>的</span></span><span class=cm><span lang=EN-US style='font-size:
 8.5pt;font-family:"Courier New";color:#999999'>f</span></span><span class=cm><span
-style='font-size:8.5pt;color:#999999'>ÊôÐÔ</span></span></pre><pre
+style='font-size:8.5pt;color:#999999'>属性</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {object[]} g - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>g</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>ÎªÒ»¸ö¶ÔÏóÊý×é</span></span></pre><pre style='background:#F7F7F9;
+color:#999999'>为一个对象数组</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=cm><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#999999'> * @param {string} g.h - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>g</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>Êý×éÖÐÒ»ÏîµÄ</span></span><span class=cm><span lang=EN-US
+color:#999999'>数组中一项的</span></span><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'>h</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>ÊôÐÔ</span></span></pre><pre
+class=cm><span style='font-size:8.5pt;color:#999999'>属性</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {string} g.i - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>g</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>Êý×éÖÐÒ»ÏîµÄ</span></span><span class=cm><span lang=EN-US
+color:#999999'>数组中一项的</span></span><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'>i</span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>ÊôÐÔ</span></span></pre><pre
+class=cm><span style='font-size:8.5pt;color:#999999'>属性</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=cm><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#999999'> * @param {string} [j] - </span></span><span
-class=cm><span style='font-size:8.5pt;color:#999999'>²ÎÊý</span></span><span
+class=cm><span style='font-size:8.5pt;color:#999999'>参数</span></span><span
 class=cm><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#999999'>j</span></span><span class=cm><span style='font-size:8.5pt;
-color:#999999'>ÊÇÒ»¸ö¿ÉÑ¡²ÎÊý</span></span></pre><pre style='background:#F7F7F9;
+color:#999999'>是一个可选参数</span></span></pre><pre style='background:#F7F7F9;
 vertical-align:top'><span class=cm><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#999999'> */</span></span></pre><pre
 style='background:#F7F7F9;vertical-align:top'><span class=kd><span lang=EN-US
@@ -6541,11 +6543,11 @@ style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>...</span></span
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÒýºÅ_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÒýºÅ</span></h3>
+<h3 style='vertical-align:top'><a name="_引号_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>引号</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>×îÍâ²ãÍ³Ò»Ê¹ÓÃµ¥ÒýºÅ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>最外层统一使用单引号。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -6587,33 +6589,33 @@ color:#CC3300'>'&lt;div id=&quot;test&quot;&gt;&lt;/div&gt;'</span></span><span
 class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>;</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_±äÁ¿ÃüÃû"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>±äÁ¿ÃüÃû</span></h3>
+<h3 style='vertical-align:top'><a name="_变量命名"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>变量命名</span></h3>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>±ê×¼±äÁ¿²ÉÓÃÍÕ·åÊ½ÃüÃû£¨³ýÁË¶ÔÏóµÄÊôÐÔÍâ£¬Ö÷ÒªÊÇ¿¼ÂÇµ½<span
-     lang=EN-US>cgi</span>·µ»ØµÄÊý¾Ý£©</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>标准变量采用驼峰式命名（除了对象的属性外，主要是考虑到<span
+     lang=EN-US>cgi</span>返回的数据）</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'ID'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔÚ±äÁ¿ÃûÖÐÈ«´óÐ´</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'ID'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>在变量名中全大写</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'URL'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔÚ±äÁ¿ÃûÖÐÈ«´óÐ´</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'URL'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>在变量名中全大写</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'Android'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔÚ±äÁ¿ÃûÖÐ´óÐ´µÚÒ»¸ö×ÖÄ¸</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'Android'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>在变量名中大写第一个字母</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>'iOS'</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÔÚ±äÁ¿ÃûÖÐÐ¡Ð´µÚÒ»¸ö£¬´óÐ´ºóÁ½¸ö×ÖÄ¸</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>'iOS'</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>在变量名中小写第一个，大写后两个字母</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>³£Á¿È«´óÐ´£¬ÓÃÏÂ»®ÏßÁ¬½Ó</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>常量全大写，用下划线连接</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¹¹Ôìº¯Êý£¬´óÐ´µÚÒ»¸ö×ÖÄ¸</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>构造函数，大写第一个字母</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>jquery</span><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>¶ÔÏó±ØÐëÒÔ<span
-     lang=EN-US>'$'</span>¿ªÍ·ÃüÃû</span></li>
+     lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>jquery</span><span
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>对象必须以<span
+     lang=EN-US>'$'</span>开头命名</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=kd><span
@@ -6733,15 +6735,15 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#CC3300'>'body
 class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>);</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_±äÁ¿ÉùÃ÷"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>±äÁ¿ÉùÃ÷</span></h3>
+<h3 style='vertical-align:top'><a name="_变量声明"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>变量声明</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Ò»¸öº¯Êý×÷ÓÃÓòÖÐËùÓÐµÄ±äÁ¿ÉùÃ÷Ìáµ½º¯ÊýÊ×²¿£¬³ýÁË<span lang=EN-US>for (...)</span>ÀïÃæÊ¹ÓÃµÄÒ»´ÎÐÔ±äÁ¿¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>一个函数作用域中所有的变量声明提到函数首部，除了<span lang=EN-US>for (...)</span>里面使用的一次性变量。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>var</span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>µÄÊýÁ¿²»×öÏÞÖÆ£¬µ«ÒªÍ³Ò»£¬Ò»ÐÐ¶¨ÒåÒ»¸ö±äÁ¿¡£</span></p>
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>var</span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>的数量不做限制，但要统一，一行定义一个变量。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -7103,25 +7105,25 @@ color:#5A5A5A'>}</span></span></pre><pre style='background:#F7F7F9;vertical-alig
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>}</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_º¯Êý"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>º¯Êý</span></h3>
+<h3 style='vertical-align:top'><a name="_函数"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>函数</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÎÞÂÛÊÇº¯ÊýÉùÃ÷»¹ÊÇº¯Êý±í´ïÊ½£¬<span lang=EN-US>'('</span>Ç°²»Òª¿Õ¸ñ£¬µ«<span
-lang=EN-US>'{'</span>Ç°Ò»¶¨ÒªÓÐ¿Õ¸ñ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>无论是函数声明还是函数表达式，<span lang=EN-US>'('</span>前不要空格，但<span
+lang=EN-US>'{'</span>前一定要有空格；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>º¯Êýµ÷ÓÃÀ¨ºÅÇ°²»ÐèÒª¿Õ¸ñ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>函数调用括号前不需要空格；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Á¢¼´Ö´ÐÐº¯ÊýÍâ±ØÐë°üÒ»²ãÀ¨ºÅ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>立即执行函数外必须包一层括号；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»Òª¸ø<span lang=EN-US>inline function</span>ÃüÃû£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要给<span lang=EN-US>inline function</span>命名；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²ÎÊýÖ®¼äÓÃ<span
-lang=EN-US>', '</span>·Ö¸ô£¬×¢Òâ¶ººÅºóÓÐÒ»¸ö¿Õ¸ñ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>参数之间用<span
+lang=EN-US>', '</span>分隔，注意逗号后有一个空格。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// no space before '(', but one space before'{'</span></span></pre><pre
@@ -7366,17 +7368,17 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// do
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>};</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_Êý×é¡¢¶ÔÏó"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>Êý×é¡¢¶ÔÏó</span></h3>
+<h3 style='vertical-align:top'><a name="_数组、对象"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>数组、对象</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¶ÔÏóÊôÐÔÃû²»ÐèÒª¼ÓÒýºÅ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>对象属性名不需要加引号；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¶ÔÏóÒÔËõ½øµÄÐÎÊ½ÊéÐ´£¬²»ÒªÐ´ÔÚÒ»ÐÐ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>对象以缩进的形式书写，不要写在一行；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Êý×é¡¢¶ÔÏó×îºó²»ÒªÓÐ¶ººÅ¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>数组、对象最后不要有逗号。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -7482,41 +7484,41 @@ lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#FF6600'>2</sp
 style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>};</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_À¨ºÅ"></a><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>À¨ºÅ</span></h3>
+<h3 style='vertical-align:top'><a name="_括号"></a><span style='font-family:"微软雅黑",sans-serif;
+color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>括号</span></h3>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÏÂÁÐ¹Ø¼ü×Öºó±ØÐëÓÐ´óÀ¨ºÅ£¨¼´Ê¹´úÂë¿éµÄÄÚÈÝÖ»ÓÐÒ»ÐÐ£©£º</span><code><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>下列关键字后必须有大括号（即使代码块的内容只有一行）：</span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>if</span></code><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>else</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,</span><code><span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,</span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>for</span></code><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>while</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>do</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>switch</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>try</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>catch</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>finally</span></code><span
-lang=EN-US style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+lang=EN-US style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>with</span></code><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -7556,32 +7558,32 @@ style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
 <h3 style='vertical-align:top'><a name="_null"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>null</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÊÊÓÃ³¡¾°£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>适用场景：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>³õÊ¼»¯Ò»¸ö½«À´¿ÉÄÜ±»¸³ÖµÎª¶ÔÏóµÄ±äÁ¿</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>初始化一个将来可能被赋值为对象的变量</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>ÓëÒÑ¾­³õÊ¼»¯µÄ±äÁ¿×ö±È½Ï</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>与已经初始化的变量做比较</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>×÷ÎªÒ»¸ö²ÎÊýÎª¶ÔÏóµÄº¯ÊýµÄµ÷ÓÃ´«²Î</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>作为一个参数为对象的函数的调用传参</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>×÷ÎªÒ»¸ö·µ»Ø¶ÔÏóµÄº¯ÊýµÄ·µ»ØÖµ</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>作为一个返回对象的函数的返回值</span></li>
 </ul>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÊÊÓÃ³¡¾°£º</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不适用场景：</span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»ÒªÓÃ<span
-     lang=EN-US>null</span>À´ÅÐ¶Ïº¯Êýµ÷ÓÃÊ±ÓÐÎÞ´«²Î</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>不要用<span
+     lang=EN-US>null</span>来判断函数调用时有无传参</span></li>
  <li class=MsoNormal style='color:#5A5A5A;text-align:left;vertical-align:top'><span
-     style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif'>²»ÒªÓëÎ´³õÊ¼»¯µÄ±äÁ¿×ö±È½Ï</span></li>
+     style='font-size:11.0pt;font-family:"微软雅黑",sans-serif'>不要与未初始化的变量做比较</span></li>
 </ul>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
@@ -7702,15 +7704,15 @@ vertical-align:top'><span class=p><span lang=EN-US style='font-size:8.5pt;
 font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
 <h3 style='vertical-align:top'><a name="_undefined"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>undefined</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÓÀÔ¶²»ÒªÖ±½ÓÊ¹ÓÃ<span lang=EN-US>undefined</span>½øÐÐ±äÁ¿ÅÐ¶Ï£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>永远不要直接使用<span lang=EN-US>undefined</span>进行变量判断；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>Ê¹ÓÃ<span
-lang=EN-US>typeof</span>ºÍ×Ö·û´®<span lang=EN-US>'undefined'</span>¶Ô±äÁ¿½øÐÐÅÐ¶Ï¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>使用<span
+lang=EN-US>typeof</span>和字符串<span lang=EN-US>'undefined'</span>对变量进行判断。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -7764,65 +7766,65 @@ style='background:#F7F7F9;vertical-align:top'><span class=p><span lang=EN-US
 style='font-size:8.5pt;font-family:"Courier New";color:#5A5A5A'>}</span></span></pre>
 
 <h3 style='vertical-align:top'><a name="_jshint"></a><span lang=EN-US
-style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
+style='font-family:"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;
 font-weight:normal'>jshint</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÓÃ<span lang=EN-US>'===', '!=='</span>´úÌæ<span lang=EN-US>'==',
-'!='</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>用<span lang=EN-US>'===', '!=='</span>代替<span lang=EN-US>'==',
+'!='</span>；</span></p>
 
 <p style='vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>for-in</span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>ÀïÒ»¶¨ÒªÓÐ<span
-lang=EN-US>hasOwnProperty</span>µÄÅÐ¶Ï£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>for-in</span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>里一定要有<span
+lang=EN-US>hasOwnProperty</span>的判断；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÄÚÖÃ¶ÔÏóµÄÔ­ÐÍÉÏÌí¼Ó·½·¨£¬Èç<span lang=EN-US>Array, Date</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在内置对象的原型上添加方法，如<span lang=EN-US>Array, Date</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÄÚ²ã×÷ÓÃÓòµÄ´úÂëÀïÉùÃ÷ÁË±äÁ¿£¬Ö®ºóÈ´·ÃÎÊµ½ÁËÍâ²ã×÷ÓÃÓòµÄÍ¬Ãû±äÁ¿£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在内层作用域的代码里声明了变量，之后却访问到了外层作用域的同名变量；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>±äÁ¿²»ÒªÏÈÊ¹ÓÃºóÉùÃ÷£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>变量不要先使用后声明；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÒ»¾ä´úÂëÖÐµ¥µ¥Ê¹ÓÃ¹¹Ôìº¯Êý£¬¼ÇµÃ½«Æä¸³Öµ¸øÄ³¸ö±äÁ¿£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在一句代码中单单使用构造函数，记得将其赋值给某个变量；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÍ¬¸ö×÷ÓÃÓòÏÂÉùÃ÷Í¬Ãû±äÁ¿£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在同个作用域下声明同名变量；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÒ»Ð©²»ÐèÒªµÄµØ·½¼ÓÀ¨ºÅ£¬Àý£º<span lang=EN-US>delete(a.b)</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在一些不需要的地方加括号，例：<span lang=EN-US>delete(a.b)</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÊ¹ÓÃÎ´ÉùÃ÷µÄ±äÁ¿£¨È«¾Ö±äÁ¿ÐèÒª¼Óµ½<span lang=EN-US>.jshintrc</span>ÎÄ¼þµÄ<span
-lang=EN-US>globals</span>ÊôÐÔÀïÃæ£©£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要使用未声明的变量（全局变量需要加到<span lang=EN-US>.jshintrc</span>文件的<span
+lang=EN-US>globals</span>属性里面）；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÉùÃ÷ÁË±äÁ¿È´²»Ê¹ÓÃ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要声明了变量却不使用；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÓ¦¸Ã×ö±È½ÏµÄµØ·½×ö¸³Öµ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在应该做比较的地方做赋值；</span></p>
 
 <p style='vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>debugger</span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²»Òª³öÏÖÔÚÌá½»µÄ´úÂëÀï£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>debugger</span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>不要出现在提交的代码里；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>Êý×éÖÐ²»Òª´æÔÚ¿ÕÔªËØ£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>数组中不要存在空元素；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÑ­»·ÄÚ²¿ÉùÃ÷º¯Êý£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在循环内部声明函数；</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²»ÒªÏñÕâÑùÊ¹ÓÃ¹¹Ôìº¯Êý£¬Àý£º</span><code><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>不要像这样使用构造函数，例：</span><code><span
 lang=EN-US style='font-size:9.0pt;font-family:"Courier New";color:#D44950;
 background:#F7F7F9'>new function () { ... }</span></code><span lang=EN-US
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>,<span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>,<span
 class=apple-converted-space>&nbsp;</span></span><code><span lang=EN-US
 style='font-size:9.0pt;font-family:"Courier New";color:#D44950;background:#F7F7F9'>new
-Object</span></code><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>£»</span></p>
+Object</span></code><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>；</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
@@ -8386,35 +8388,35 @@ color:#5A5A5A'>};</span></span></pre><pre style='background:#F7F7F9;vertical-ali
 top'><span class=p><span lang=EN-US style='font-size:8.5pt;font-family:"Courier New";
 color:#5A5A5A'>};</span></span></pre>
 
-<h3 style='vertical-align:top'><a name="_ÔÓÏî_1"></a><span style='font-family:
-"Î¢ÈíÑÅºÚ",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>ÔÓÏî</span></h3>
+<h3 style='vertical-align:top'><a name="_杂项_1"></a><span style='font-family:
+"微软雅黑",sans-serif;color:#2A2A2A;letter-spacing:-.6pt;font-weight:normal'>杂项</span></h3>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»Òª»ìÓÃ<span lang=EN-US>tab</span>ºÍ<span lang=EN-US>space</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要混用<span lang=EN-US>tab</span>和<span lang=EN-US>space</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÒªÔÚÒ»´¦Ê¹ÓÃ¶à¸ö<span lang=EN-US>tab</span>»ò<span lang=EN-US>space</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不要在一处使用多个<span lang=EN-US>tab</span>或<span lang=EN-US>space</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>»»ÐÐ·ûÍ³Ò»ÓÃ<span lang=EN-US>'LF'</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>换行符统一用<span lang=EN-US>'LF'</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>¶ÔÉÏÏÂÎÄ<span lang=EN-US>this</span>µÄÒýÓÃÃüÃû·¶Î§£º<span lang=EN-US>self
-&gt; that &gt; _this &gt; me</span>£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>对上下文<span lang=EN-US>this</span>的引用命名范围：<span lang=EN-US>self
+&gt; that &gt; _this &gt; me</span>；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>ÐÐÎ²²»ÒªÓÐ¿Õ°××Ö·û£»</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>行尾不要有空白字符；</span></p>
 
 <p style='vertical-align:top'><span lang=EN-US style='font-size:11.0pt;
-font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>switch</span><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>µÄ<span
-lang=EN-US>falling through</span>ºÍ<span lang=EN-US>no default</span>µÄÇé¿öÒ»¶¨ÒªÓÐ×¢ÊÍÌØ±ðËµÃ÷£»</span></p>
+font-family:"微软雅黑",sans-serif;color:#5A5A5A'>switch</span><span
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>的<span
+lang=EN-US>falling through</span>和<span lang=EN-US>no default</span>的情况一定要有注释特别说明；</span></p>
 
-<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
-color:#5A5A5A'>²»ÔÊÐíÈýÔªÔËËã·ûÇ¶Ì×¡£</span></p>
+<p style='vertical-align:top'><span style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;
+color:#5A5A5A'>不允许三元运算符嵌套。</span></p>
 
 <p style='margin:0cm;margin-bottom:.0001pt;vertical-align:top'><span
-style='font-size:11.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#5A5A5A'>²»ÔÊÐíÓÐ¿ÕµÄ´úÂë¿é¡£</span></p>
+style='font-size:11.0pt;font-family:"微软雅黑",sans-serif;color:#5A5A5A'>不允许有空的代码块。</span></p>
 
 <pre style='background:#F7F7F9;vertical-align:top'><span class=c1><span
 lang=EN-US style='font-size:8.5pt;font-family:"Courier New";color:#999999'>// not good</span></span></pre><pre
